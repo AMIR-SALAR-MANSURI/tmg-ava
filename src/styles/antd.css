@@ -1,0 +1,762 @@
+/* start drawer */
+
+.ant-drawer-content .ant-drawer-header {
+  @apply border-b-0 !important;
+}
+
+.ant-drawer-content .ant-drawer-body {
+  @apply p-0 !important;
+}
+
+.ant-drawer-header-title {
+  @apply flex items-center justify-center !important;
+}
+
+.ant-drawer-close {
+  @apply hover:scale-[101%] active:scale-100 !important;
+}
+
+/* end drawer */
+
+/* start menu */
+
+.ant-menu .ant-menu-item-selected:after {
+  direction: ltr !important;
+  width: 4px !important;
+  background-color: var(--primary) !important;
+  border-top-left-radius: 12px !important;
+  border-bottom-left-radius: 12px !important;
+}
+
+.ant-menu {
+  @apply border-r-0 space-y-2 bg-inherit !important;
+}
+
+.ant-menu .ant-menu-item {
+  @apply text-base pr-4 mx-0 gap-1 w-full active:scale-y-105 hover:scale-y-105 !important;
+}
+
+.ant-menu .ant-menu-submenu .ant-menu-submenu-title {
+  @apply text-base flex pr-4 w-full mx-0 items-center !important;
+}
+
+.ant-menu .ant-menu-submenu .ant-menu-submenu-title .ant-menu-item-icon {
+  @apply size-5 !important;
+}
+
+.ant-menu .ant-menu-item .ant-menu-item-icon {
+  @apply size-5 !important;
+}
+
+.ant-menu .ant-menu-item-group .ant-menu-item-group-title {
+  @apply py-2 pr-4 text-sm !important;
+}
+
+.ant-menu .ant-menu-item-group .ant-menu-item-group-list .ant-menu-item {
+  @apply py-2 pr-7 !important;
+}
+
+.ant-menu .ant-menu-inline .ant-menu-item {
+  @apply pr-7 !important;
+}
+
+.ant-menu .ant-menu-item-divider {
+  @apply my-2 bg-gray-200 !important;
+}
+
+.ant-menu .ant-menu-submenu-selected {
+  @apply bg-gray-100 !important;
+}
+
+.ant-menu .ant-menu-submenu-open > ul {
+  @apply bg-gray-200 !important;
+}
+
+/* end menu */
+
+/* start transfer */
+
+.ant-transfer-operation {
+  @apply flex-col-reverse !important;
+}
+
+.ant-transfer-operation button {
+  @apply flex items-center flex-row-reverse justify-between bg-primary h-8 text-sm !important;
+}
+
+.ant-transfer-operation button:nth-child(even) {
+  @apply flex-row !important;
+}
+
+.ant-transfer-operation button .ant-btn-icon {
+  @apply size-4 mx-0 !important;
+}
+
+.ant-transfer-operation button .ant-btn-icon > span > svg {
+  @apply size-4 flex items-center justify-center !important;
+}
+
+.ant-transfer-operation button:disabled {
+  @apply bg-[#F5F5F5] text-[#D9D9D9] !important;
+}
+
+.ant-transfer-list-header {
+  @apply flex flex-row-reverse items-center justify-between !important;
+}
+
+.ant-transfer-list-header .ant-transfer-list-header-title {
+  @apply flex items-center !important;
+}
+
+.ant-transfer-list-header {
+  @apply bg-primary h-10 font-bold text-white !important;
+}
+
+.ant-transfer-list-body-search-wrapper .ant-input-affix-wrapper {
+  @apply h-8 !important;
+}
+
+.ant-transfer-list-header .ant-checkbox-disabled .ant-checkbox-inner {
+  @apply bg-[#F5F5F5] !important;
+}
+
+.ant-transfer-list-content-item .ant-checkbox-wrapper .ant-checkbox-inner {
+  @apply size-4 !important;
+}
+
+.ant-transfer-list
+  .ant-transfer-list-body
+  .ant-transfer-list-body-search-wrapper
+  .ant-input-affix-wrapper
+  .ant-input-suffix {
+  @apply flex items-center justify-center !important;
+}
+
+.ant-transfer-list
+  .ant-transfer-list-body
+  .ant-transfer-list-body-search-wrapper
+  .ant-input-affix-wrapper
+  .ant-input-suffix
+  .ant-input-clear-icon
+  > span {
+  @apply flex items-center justify-center !important;
+}
+
+.ant-transfer-list
+  .ant-transfer-list-body
+  .ant-transfer-list-body-search-wrapper
+  .ant-input-affix-wrapper
+  .ant-input-suffix
+  .ant-input-clear-icon
+  > span
+  > svg {
+  @apply size-3.5 !important;
+}
+/* end transfer */
+
+/* start dropdown-menu */
+/* 
+.ant-dropdown-menu {
+    @apply min-w-32 lg:min-w-36 !important
+}
+
+.ant-dropdown-menu-item {
+    @apply h-8 lg:h-9 m-0.5 flex-row-reverse text-sm lg:text-base hover:scale-[101%] active:scale-100 !important
+}
+
+.ant-dropdown-menu-item-icon {
+    @apply size-4 lg:size-5 !important
+}
+
+.ant-menu .ant-menu-item-group .ant-menu-item-group-title {
+    @apply text-base !important
+} */
+
+/* end dropdown-menu */
+
+/* start ant-button */
+
+.ant-btn {
+  @apply h-6 p-2 text-xs md:text-sm lg:h-8 lg:p-3 lg:text-base flex items-center justify-center hover:md:scale-[101%] active:max-md:scale-95 !important;
+}
+
+.ant-btn .ant-btn-icon {
+  @apply mr-0 ml-0.5 lg:ml-1 !important;
+}
+
+.ant-btn-icon-end .ant-btn-icon {
+  @apply ml-0 mr-0.5 lg:mr-1 !important;
+}
+
+.ant-btn .ant-btn-icon svg {
+  @apply size-4 lg:size-5 !important;
+}
+
+/* end ant-button */
+
+/* start tag  */
+
+.ant-tag {
+  @apply font-medium px-2 py-1 !important;
+}
+
+/* end tag */
+
+/* start alert  */
+
+.ant-alert .ant-alert-content .ant-alert-message .ant-typography {
+  @apply text-xs md:text-sm lg:text-base py-2 !important;
+}
+
+/* end alert */
+
+/* start switch  */
+
+.ant-switch {
+  @apply hover:scale-[101%] active:scale-100 !important;
+}
+
+/* end switch */
+
+/* start modal */
+
+.ant-modal-footer {
+  @apply w-full h-full flex items-center justify-end gap-3 !important;
+}
+
+.ant-modal .ant-modal-content .ant-modal-close {
+  @apply m-3 hover:scale-[101%] active:scale-[101%] rounded-full !important;
+}
+
+/* end modal */
+
+/* start form */
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-input {
+  @apply h-8 text-sm lg:h-10 lg:text-base flex flex-row-reverse items-center justify-center !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-input-affix-wrapper
+  .ant-input-suffix
+  .ant-input-clear-icon
+  .anticon
+  svg {
+  @apply mt-1 size-4 lg:size-5 !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-input-textarea-affix-wrapper
+  > textarea {
+  @apply h-14 text-sm lg:h-16 lg:text-base flex flex-row-reverse items-center justify-center !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-input-number {
+  @apply w-full h-8 text-sm lg:h-10 lg:text-base flex flex-row-reverse items-center justify-center !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-input-password {
+  @apply h-8 text-sm lg:h-10 lg:text-base flex flex-row items-center justify-center !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-input-password
+  .ant-input {
+  @apply h-8 text-sm lg:h-10 lg:text-base flex flex-row items-center justify-center !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-input-password {
+  @apply px-1.5 !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-input-password
+  .ant-input-suffix
+  .ant-input-password-icon
+  svg {
+  @apply ml-1 size-5 !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-radio-group {
+  @apply w-full h-8 text-sm lg:h-10 lg:text-base flex items-center justify-center !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-radio-button-wrapper {
+  @apply w-full h-8 text-sm lg:h-10 lg:text-base flex items-center justify-center !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-radio-button-wrapper
+  span {
+  @apply flex items-center justify-center gap-3 !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-select {
+  @apply h-8 text-sm lg:h-10 lg:text-base flex flex-row-reverse items-center justify-center !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-select
+  .ant-select-selector {
+  @apply h-8 text-sm w-full lg:h-10 lg:text-base flex flex-row-reverse items-center justify-center !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-select
+  .ant-select-selector
+  .ant-select-selection-overflow
+  .ant-select-selection-overflow-item
+  .ant-select-selection-item {
+  @apply flex items-center justify-center px-1.5 py-3 lg:px-2 lg:py-4 text-sm lg:text-base !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-select
+  .ant-select-selector
+  .ant-select-selection-overflow
+  .ant-select-selection-overflow-item
+  .ant-select-selection-item
+  .ant-select-selection-item-remove
+  .anticon
+  svg {
+  @apply size-3 mr-0.5 lg:size-3.5 lg:mr-1 !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-select
+  .ant-select-selection-item {
+  @apply text-sm lg:text-base flex items-center !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-select
+  .ant-select-arrow {
+  @apply ml-1 !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-select
+  .ant-select-clear {
+  @apply ml-1.5 !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-select
+  .ant-select-arrow
+  .anticon
+  svg {
+  @apply size-3 lg:size-3.5 !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-select
+  .ant-select-clear
+  .anticon
+  svg {
+  @apply size-3 lg:size-3.5 !important;
+}
+
+.ant-select-dropdown
+  .rc-virtual-list
+  .rc-virtual-list-holder
+  .rc-virtual-list-holder-inner
+  div
+  div {
+  @apply max-h-8 lg:max-h-8 my-0.5 lg:my-1 mx-0.5 flex-row-reverse text-sm lg:text-base hover:scale-y-95 active:scale-100 !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-tree-select {
+  @apply h-8 text-sm lg:h-10 lg:text-base flex flex-row-reverse items-center justify-center !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-tree-select
+  .ant-select-selector {
+  @apply h-8 text-sm lg:h-10 lg:text-base w-full flex flex-row-reverse items-center justify-center !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-tree-select
+  .ant-select-selector
+  .ant-select-selection-overflow
+  .ant-select-selection-overflow-item
+  .ant-select-selection-item {
+  @apply flex items-center justify-center px-1.5 py-3 lg:px-2 lg:py-4 text-sm lg:text-base !important;
+}
+
+.ant-form
+  .ant-row
+  .ant-col
+  .ant-form-item
+  .ant-form-item-row
+  .ant-form-item-control-input-content
+  .ant-tree-select
+  .ant-select-selector
+  .ant-select-selection-overflow
+  .ant-select-selection-overflow-item
+  .ant-select-selection-item
+  .ant-select-selection-item-remove
+  .anticon
+  svg {
+  @apply size-3 mr-0.5 lg:size-3.5 lg:mr-1 !important;
+}
+
+.ant-select-tree-list
+  .ant-select-tree-list-holder
+  .ant-select-tree-list-holder-inner
+  .ant-select-tree-treenode
+  .ant-select-tree-node-content-wrapper {
+  @apply text-sm lg:text-base flex items-center pr-2 lg:pr-3.5 h-6 lg:h-8 !important;
+}
+
+.ant-select-tree-list
+  .ant-select-tree-list-holder
+  .ant-select-tree-list-holder-inner
+  .ant-select-tree-treenode
+  .ant-select-tree-checkbox {
+  @apply flex items-center lg:mt-2 !important;
+}
+
+.ant-form-item {
+  @apply mb-0 !important;
+}
+
+/* end form */
+
+/* start radio */
+
+/* .ant-radio-group {
+    @apply w-full h-9 text-sm lg:h-11 lg:text-base flex items-center justify-center !important
+}
+
+.ant-radio-button-wrapper {
+    @apply max-md:w-full h-9 text-sm lg:h-11 lg:text-base flex items-center justify-center hover:scale-y-105 active:scale-100 !important
+}
+
+.ant-radio-button-wrapper span {
+    @apply flex items-center justify-center gap-3 !important
+} */
+
+/* end radio */
+
+/* start notification */
+
+.ant-notification-notice-close {
+  @apply flex items-center hover:scale-[101%] active:scale-100 !important;
+}
+
+.ant-notification-notice-message {
+  @apply mb-0 text-sm sm:text-base !important;
+  font-family: "IRANSansfanum" !important;
+  direction: rtl;
+}
+
+/* end notification */
+
+/* start checkbox */
+
+.ant-checkbox-inner {
+  @apply size-3.5 lg:size-4 !important;
+}
+
+/* end checkbox */
+
+/* start card */
+
+.ant-card {
+  @apply shadow-sm !important;
+}
+
+/* end card */
+
+/* start table */
+
+.ant-table {
+  @apply bg-inherit !important;
+}
+
+.ant-table-row:nth-child(odd) {
+  @apply bg-[#F2F4F7] !important;
+}
+
+.ant-table-thead .ant-table-cell:before {
+  @apply w-0 !important;
+}
+
+.ant-table-tbody .ant-table-row .ant-table-cell:last-child:before {
+  @apply w-0;
+}
+
+.ant-table-tbody .ant-table-row .ant-table-cell:before {
+  @apply bg-gray-300;
+  position: absolute;
+  top: 50%;
+  inset-inline-end: 0;
+  width: 1px;
+  height: 1.5em;
+  transform: translateY(-50%);
+  transition: background-color 0.2s;
+  content: "";
+}
+
+.ant-table
+  .ant-table-container
+  .ant-table-content
+  .ant-table-thead
+  .ant-table-cell {
+  @apply h-10 lg:h-12 text-xs lg:text-sm bg-primary text-white !important;
+}
+
+.ant-table
+  .ant-table-container
+  .ant-table-content
+  .ant-table-tbody
+  .ant-table-row
+  .ant-table-cell {
+  @apply h-10 lg:h-12 text-xs lg:text-sm !important;
+}
+
+.ant-table-cell {
+  @apply text-nowrap text-center !important;
+}
+
+.ant-table .ant-table-container .ant-table-content > table {
+  @apply table-auto !important;
+}
+
+.ant-table
+  .ant-table-container
+  .ant-table-content
+  .ant-table-tbody
+  .ant-table-row
+  .ant-table-row-expand-icon-cell
+  svg {
+  @apply size-4 hover:scale-[101%] cursor-pointer active:scale-100 !important;
+}
+
+.ant-table-tbody .ant-table-expanded-row > .ant-table-cell {
+  @apply lg:p-4 lg:px-6 p-2 px-4 border-t-2 border-b-0 !important;
+}
+
+.ant-table-tbody .ant-table-expanded-row > .ant-table-cell .ant-card {
+  @apply shadow-sm !important;
+}
+
+/* end table */
+
+/* start pagination */
+
+.ant-pagination {
+  @apply mt-4 mb-0 !important;
+}
+.ant-pagination .ant-pagination-total-text {
+  @apply w-full flex-1 ml-0 mr-1 !important;
+}
+
+/* .ant-pagination .ant-pagination-prev {
+    @apply lg:size-8 flex items-center justify-center lg:text-base !important
+}
+
+.ant-pagination .ant-pagination-next {
+    @apply lg:size-8 flex items-center justify-center lg:text-base !important
+}
+
+.ant-pagination .ant-pagination-item {
+    @apply lg:size-8 flex items-center justify-center lg:text-base !important
+}
+
+.ant-pagination .ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-ellipsis {
+    @apply size-7 lg:size-8 flex items-center justify-center lg:text-base !important
+}
+
+.ant-pagination .ant-pagination-jump-prev .ant-pagination-item-container {
+    @apply size-7 lg:size-8 flex items-center justify-center lg:text-base !important
+}
+
+.ant-pagination .ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-ellipsis {
+    @apply size-7 lg:size-8 flex items-center justify-center lg:text-base !important
+}
+
+.ant-pagination .ant-pagination-jump-next .ant-pagination-item-container {
+    @apply size-7 lg:size-8 flex items-center justify-center lg:text-base !important
+} */
+
+/* end pagination */
+
+/* start confirm modal */
+
+.ant-modal-confirm {
+  direction: rtl;
+}
+
+.ant-modal {
+  @apply lg:min-w-[649px];
+}
+
+.ant-modal-content {
+  @apply p-2;
+}
+
+.ant-modal-confirm-body {
+  @apply gap-2;
+}
+
+.ant-modal-confirm-paragraph {
+  @apply gap-4 mt-2 !important;
+}
+
+.ant-modal-confirm-btns button {
+  @apply min-w-[120px] hover:scale-[101%] active:scale-[101%];
+}
+
+.ant-modal-confirm-body .anticon {
+  @apply p-1.5 bg-white rounded-full;
+}
+
+.ant-modal-confirm-btns {
+  @apply flex justify-end gap-1;
+}
+
+.error-gradient .ant-modal-content {
+  @apply bg-gradient-to-r from-white via-white to-[#FFEAEA];
+}
+
+.success-gradient .ant-modal-content {
+  @apply bg-gradient-to-r from-white via-white to-[#E1FFF2];
+}
+
+.ant-modal-confirm-body svg {
+  @apply size-10 bg-white rounded-full p-1;
+}
+
+.ant-btn-link {
+  @apply text-orange-700 !important;
+}
+
+.ant-btn-link:disabled {
+  @apply text-gray-400 cursor-not-allowed !important;
+}
+/* end confirm modal */

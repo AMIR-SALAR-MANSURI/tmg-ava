@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F0EFEF;
+  --foreground: #171717;
+  --primary: #303434;
+  --primary-foreground: #F0EFEF;
+  --info: #1677ff;
+  --success: #1bb625;
+  --warning: #e98713;
+  --error: #f43f5e;
+  --typography: #505153;
+  --typography-primary: #86262f;
+  --typography-secondary: #686872;
+}
+
+
+.filepond--drop-label {
+    font-family: "IRANSansfanum" !important;
+}
+
+.filepond--credits {
+    display: none;
+}
+
+.filepond--file {
+  font-family: "IRANSansfanum" !important;
+}
+* {
+  font-family: "IRANSansfanum" !important;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+* {
+  /* scrollbar-width: thin;
+  scrollbar-color: theme("colors.primary") theme("colors.gray.300"); */
+  scrollbar-3dlight-color: theme("colors.primary");
+  scrollbar-darkshadow-color: theme("colors.primary");
+  /* scrollbar-face-color: theme("backgroundColor.green.500");
+  scrollbar-highlight-color: theme("backgroundColor.green.500");
+  scrollbar-shadow-color: theme("backgroundColor.green.500"); */
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: theme("colors.gray.300");
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: theme("colors.primary");
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: theme("colors.primary");
+}
+
+.domain-select .ant-card-body {
+  @apply !p-0;
+}
+
+.domain-select .ant-select-selector {
+  @apply !border-none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+.ant-tabs .ant-tabs-content-holder .ant-tabs-content {
+  @apply min-h-full h-full !important
+}
+
+
+.ant-tabs .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane  {
+  @apply min-h-full h-full !important
+}
+
+.prose table {
+  border-collapse: collapse; 
+  border-spacing: 0;         
+  width: 100%;
+  margin: 1.25em 0;
+  white-space: nowrap;
+  border-radius: 0.5rem; 
+  overflow: hidden;     
+}
+
+.prose th, .prose td {
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem 0.75rem;
+  text-align: rtl;
+
+}
+
+.prose th {
+  background-color: #f3f4f6; 
+  font-weight: 600;
+}
+
+.prose tr:nth-child(odd) {
+  background-color: #f9fafb; 
+}
+.prose :where(p):not(:where([class~="not-prose"] *)) {
+  margin-bottom: 0 !important;
+}
+/* 
+.domain-select .ant-select-prefix {
+  @apply text-primary !important;
+} */
