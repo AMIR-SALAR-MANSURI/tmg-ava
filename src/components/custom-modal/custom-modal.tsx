@@ -16,7 +16,7 @@ interface Props {
   children: React.ReactNode;
   onClick?: () => void;
   maskClosable?: boolean;
-  onClose: (arg: string | undefined) => void;
+  onClose: (arg: any) => void;
   type?: "info" | "warning" | "error" | "success" | "default";
   confirmButtonText?: string;
 }

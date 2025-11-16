@@ -165,9 +165,9 @@ export default function useAudioRecorder({
     if (!analyser) return;
 
     const bufferLength: number = analyser.frequencyBinCount;
-    const dataArray: Uint8Array = new Uint8Array(bufferLength);
+    const dataArray = new Uint8Array(bufferLength);
     analyser.getByteFrequencyData(dataArray);
-    const floatData: Float32Array = new Float32Array(bufferLength);
+    const floatData = new Float32Array(bufferLength);
     analyser.getFloatTimeDomainData(floatData);
 
     const barWidth = 3;
